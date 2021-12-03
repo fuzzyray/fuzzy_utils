@@ -1,2 +1,2 @@
 # fuzzy_utils
-Collection of utility code for Python
+Collection of utility functions for Python

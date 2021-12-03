@@ -69,7 +69,7 @@ def adjust_column_widths(workbook: openpyxl.Workbook, magic: int = 5) -> None:
         workbook: the openpyxl Workbook to adjust columns for.
         magic: Magic number to slightly increase the column size. Default: 5
           This accounts for the max length of a cell not quite being a large
-          enough value to look right.
+          enough value to look correct when viewed in Excel.
 
     Returns:
         None. The Workbook is modified in place.
